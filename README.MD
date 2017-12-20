@@ -1,7 +1,7 @@
 # Arduino-Bluetooth-Temperature & Humidity
-===========================================
+
 Simple Arduino project using sensors and bluetooth chip, connection with Smartphones is avaliable
-===========================================
+
 
 ## Hardware Diagram Preview
 
