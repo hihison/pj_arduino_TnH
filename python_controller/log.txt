@@ -1,0 +1,11 @@
+[ Wed Jan 17 04:39:25 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:39:30 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:39:33 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:39:37 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:39:47 2018 ] exit !!
+[ Wed Jan 17 04:39:55 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:39:58 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:40:00 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:40:03 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:40:05 2018 ] Humidity: 77.00%	Temperature: 21.00*C	69.80*F
+[ Wed Jan 17 04:40:07 2018 ] exit !!

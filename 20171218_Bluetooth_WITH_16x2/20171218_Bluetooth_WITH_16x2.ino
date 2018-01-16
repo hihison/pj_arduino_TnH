@@ -1,4 +1,3 @@
-
 //Bluetooth .h
 #include <SoftwareSerial.h>
 //16x2 .h
@@ -20,7 +19,7 @@ SoftwareSerial BT(10,11); //RX(READ) , TX(Transfer)
 int led[] = {13,12};
 String receive;
 bool state[] = {false,false} ;
-
+String sreceive;
 void setup() {
   Serial.begin(115200);
   BT.begin(115200);
@@ -60,7 +59,7 @@ void ptrdata(){
 }
 
 
-void loop() {
+void loop() {/*
   if(BT.available() ) {
      lcd.setBacklight (HIGH);
      receive = BT.readString();
@@ -81,9 +80,29 @@ void loop() {
     //lcd.print ( "Hello World" );
     delay(250);
 
-  }
+  }*//*<<<<BLUETOOTH*/
+ /* if (Serial.available()>0){
+    char received = Serial.read();
+    if (received == '1'){*/
 
-    ptrdata();
+  sreceive = Serial.readString();
+  if (sreceive == "get"){ 
+     ptrdata();
+     delay(1000);
+  }
+  if (sreceive == "exit"){
+    lcd.setBacklight (LOW);
+    lcd.setCursor (0,0);
+    lcd.print("===============Terminated!=============");
+    lcd.setCursor (0,1);
+    lcd.print("=======================================");
+    exit(0);
+  }
+  /*
+    }
+  }*/
+
+    
 
  // 
 //delay(500);
@@ -100,6 +119,3 @@ void lightoff(int light){
   digitalWrite(light,LOW); 
   //Serial.print("LED OFF :"+light);
 }
-
-
-
